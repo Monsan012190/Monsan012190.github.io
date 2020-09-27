@@ -35,13 +35,7 @@
 <body>
   <h1>Hello PWA.</h1>
   <img src="img/halake_logo192.png" alt="logo" class="image" />
-  <a href="p.html">p.html</a>
   <script>
-      function example1() {
-      // Vibrate for 500ms
-      navigator.vibrate([500]);
-      }
-
       function vibrateSimple() {
       navigator.vibrate(200);
       }
@@ -49,19 +43,8 @@
       function vibratePattern() {
       navigator.vibrate([100, 200, 200, 200, 500]);
       }
-
-      console.log = function (log) {
-      document.getElementById('console_log').innerHTML += log + "<br>";
-      }
-      
-      navigator.getBattery().then(
-        function(BatteryManager){
-          console.log('Current Batter Level: ', BatteryManager.level);
-        }
-      );
   </script>
   <button onclick="vibrateSimple()">Vibrate for 200 ms</button>
 　<button onclick="vibratePattern()">Vibrate with pattern</button>
-  <div id="console_log"></div>
 </body>
 </html>
