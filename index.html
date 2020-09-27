@@ -1,10 +1,67 @@
-
-<!-- index.html -->
 <html>
 <head>
-    <title>github pages test</title>
+  <!-- manifest.jsonを呼び出しています -->
+  <link rel="manifest" href="./manifest.json">
+  <script>
+    // service workerが有効なら、service-worker.js を登録します
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
+   }
+  </script>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="HaLaKe PWA">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <link rel="apple-touch-icon" href="halake_logo120.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="halake_logo192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="halake_logo256.png" sizes="256x256">
+
+  <title>Hello PWA.</title>
+  <style>
+    body {
+      text-align:center;
+      font-size: 5vmin;
+      vertical-align: middle;
+    }
+    .image {
+      width: 80%; 
+      margin: auto;
+      display: block;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="halake.css">
 </head>
 <body>
-    <h1>github pages test</h1>
+  <h1>Hello PWA.</h1>
+  <img src="halake_logo256.png" alt="PWA logo" class="image" />
+  <a href="p.html">p.html</a>
+  <script>
+      function example1() {
+      // Vibrate for 500ms
+      navigator.vibrate([500]);
+      }
+
+      function vibrateSimple() {
+      navigator.vibrate(200);
+      }
+
+      function vibratePattern() {
+      navigator.vibrate([100, 200, 200, 200, 500]);
+      }
+
+      console.log = function (log) {
+      document.getElementById('console_log').innerHTML += log + "<br>";
+      }
+      
+      navigator.getBattery().then(
+        function(BatteryManager){
+          console.log('Current Batter Level: ', BatteryManager.level);
+        }
+      );
+  </script>
+  <button onclick="vibrateSimple()">Vibrate for 200 ms</button>
+　<button onclick="vibratePattern()">Vibrate with pattern</button>
+  <div id="console_log"></div>
 </body>
 </html>
