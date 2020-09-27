@@ -1,8 +1,8 @@
 body {
-    position: fixed;
     text-align:center;
     font-size: 5vmin;
     vertical-align: middle;
+    position: fixed;
 }
 .image {
     width: 80%; 
