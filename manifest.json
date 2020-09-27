@@ -1,0 +1,14 @@
+{
+    "name": "Halake",
+    "short_name": "HaLaKe PWA",
+    "background_color": "#fc980c",
+    "icons": [
+        {
+            "src": "img/halake_logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "fullscreen"
+}
