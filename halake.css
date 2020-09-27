@@ -1,0 +1,11 @@
+body {
+    position: fixed;
+    text-align:center;
+    font-size: 5vmin;
+    vertical-align: middle;
+}
+.image {
+    width: 80%; 
+    margin: auto;
+    display: block;
+}
