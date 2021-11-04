@@ -7,10 +7,13 @@ const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
 
-//touchmove の縦スクロールを禁止
-document.body.addEventListener( 'touchmove', function(e){
-e.preventDefault();
-});
+var cHeight = $('html').height();
+var bHeight = window.parent.screen.height;
+if ((cHeight - bHeight) <= 0){
+    iNoBounce.enable();
+} else {
+    iNoBounce.disable();
+}
 
 
 // ゲームの初期値設定
