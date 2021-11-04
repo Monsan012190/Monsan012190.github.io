@@ -4,19 +4,10 @@ html {
   font-family: sans-serif;
   touch-action: manipulation;
   // ビヨヨン効果を無効化する
-  overscroll-behavior: none;
+   overflow: hidden
 
 }
-.modal-container {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow-y: auto;
-  // 親要素にスクロールが伝わらないようにする
-  overscroll-behavior: contain;
-}
+
 
 .container {
   padding: 15px;
