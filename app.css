@@ -7,6 +7,17 @@ html {
   overscroll-behavior: none;
 
 }
+.modal-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  // 親要素にスクロールが伝わらないようにする
+  overscroll-behavior: contain;
+}
+
 .container {
   padding: 15px;
   max-width: 400px;
