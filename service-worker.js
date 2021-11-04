@@ -6,6 +6,7 @@ var urlsToCache = [
 
 // インストール処理
 self.addEventListener('install', function(event) {
+    event.preventDefault();
     event.waitUntil(
         caches
             .open(CACHE_NAME)
@@ -26,6 +27,4 @@ self.addEventListener('fetch', function(event) {
     );
 });
 
-self.addEventListener('touchmove', function(event) {
-    event.preventDefault();
-});
+
