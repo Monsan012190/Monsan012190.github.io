@@ -3,6 +3,9 @@
 html {
   font-family: sans-serif;
   touch-action: manipulation;
+  // ビヨヨン効果を無効化する
+  overscroll-behavior: none;
+
 }
 .container {
   padding: 15px;
