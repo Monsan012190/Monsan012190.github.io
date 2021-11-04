@@ -6,10 +6,13 @@ const startBtn  = document.getElementById('js-startBtn')
 const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
-$(window).on('touchmove.noScroll', function(e) {
-    e.preventDefault();
-});
 
+$(document).bind(
+   'touchmove',
+   function(e) {
+     e.preventDefault();
+   }
+);
 
 
 // ゲームの初期値設定
