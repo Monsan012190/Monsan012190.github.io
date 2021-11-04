@@ -7,7 +7,7 @@ const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
 
-$(document).bind(
+$(tapbtn).bind(
    'touchmove',
    function(e) {
      e.preventDefault();
