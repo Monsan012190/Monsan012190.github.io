@@ -7,12 +7,10 @@ const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
 
-$(tapbtn).bind(
-   'touchmove',
-   function(e) {
-     e.preventDefault();
-   }
-);
+//touchmove の縦スクロールを禁止
+document.body.addEventListener( 'touchmove', function(e){
+e.preventDefault();
+});
 
 
 // ゲームの初期値設定
