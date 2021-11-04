@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TAP10</title>
   
-  
+<!-- iPhone用のPWA設定！！！！！！！！！！！！！！>
 <link rel="stylesheet" type="text/css" href="app.css">
   <!-- アドレスバー等のブラウザのUIを非表示 -->
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -16,6 +16,19 @@
 <meta name="apple-mobile-web-app-title" content="TAP10">
 <!-- ホーム画面に表示されるアプリアイコン -->
 <link rel="apple-touch-icon" href="img/Icon-Small-50@2x.png">
+  
+<!-- ウェブアプリマニフェストの読み込み -->
+<link rel="manifest" href="manifest.json">
+<!-- ServiceWorkerの登録 -->
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then((reg) => {
+        console.log('Service worker registered.', reg);
+      });
+}
+</script>
+  
   
 </head>
 <body>
