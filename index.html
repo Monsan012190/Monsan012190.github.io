@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <script src="inobounce.min.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -27,8 +28,7 @@
         <p>{{ message }}</p>
         <button v-on:click="reverseMessage">Reverse Message</button>
      </div>
-    
-    <script src="inobounce.min.js"></script>
+   
     <script>
     // service workerの登録関係
     if ('serviceWorker' in navigator) {
