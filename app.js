@@ -6,17 +6,6 @@ const startBtn  = document.getElementById('js-startBtn')
 const countText = document.getElementById('js-count')
 const timeText  = document.getElementById('js-time')
 
-// 停止、開始でfunction書くのが面倒なので1つにまとめます。
-var movefun = function( event ){
-	event.preventDefault();
-}
-
-// スクロール停止の処理
-window.addEventListener( 'touchmove' , movefun , { passive: false } );
-
-// スクロール停止することを停止する処理
-window.removeEventListener( 'touchmove' , movefun, { passive: false } );
-
 // ゲームの初期値設定
 const setGame = () => {
   tapCount = 0
