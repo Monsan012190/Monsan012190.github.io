@@ -26,6 +26,6 @@ self.addEventListener('fetch', function(event) {
     );
 });
 
-self.addEventListener('touchmove', event => {
-        event.preventDefault();
-    }, true);
+window.addEventListener('touchmove', function(event) {
+    event.preventDefault();
+});
