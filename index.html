@@ -1,39 +1,39 @@
-<html>
-<head>
-  <!-- ここから -->
-  <link rel="manifest" href="./manifest.json">
-  <script>
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+　　<!-- vue.js　-->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="manifest" href="manifest.json">
+    <title>PWA Sample</title>
+  </head>
+  <body>
+    <div id="app">
+        <p>{{ message }}</p>
+        <button v-on:click="reverseMessage">Reverse Message</button>
+     </div>
+    <script>
+    // service workerの登録関係
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./service-worker.js').then(function() { console.log('Service Worker Registered'); });
-   }
-  </script>
-  <!-- ここまで必須 -->
-
-  <meta name="apple-mobile-web-app-capable" content="yes"><!-- SafariのURLバーを消す -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><!-- IOSステータスバーの表示形式の指定 -->
-  <meta name="apple-mobile-web-app-title" content="HaLaKe"><!-- タイトル -->
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-  <link rel="apple-touch-icon" href="img/halake_logo120.png" sizes="120x120"><!-- IOSのアイコン指定、複数指定で -->
-  <link rel="apple-touch-icon" href="img/halake_logo192.png" sizes="192x192">
-
-  <!-- ここから -->
-  <title>Hello PWA.</title>
-  <style>
-    body {
-      text-align:center;
-      font-size: 5vmin;
-      vertical-align: middle;
+    navigator.serviceWorker.register('service_worker.js').then(function(registration) {
+        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(function(err) {
+        console.log('ServiceWorker registration failed: ', err);
+    });
     }
-    .image {
-      width: 80%; 
-      margin: auto;
-      display: block;
-    }
-  </style>
-</head>
-<body>
-  <h1>Hello PWA.</h1>
-  <img src="img/halake_logo192.png" alt="logo" class="image" />
-</body>
-<!-- ここまではテスト用 -->
+    // vue.jsの設定関係
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue!'
+      },
+      methods: {
+        reverseMessage: function () {
+          this.message = this.message.split('').reverse().join('')
+        }
+      }
+    });
+    </script>
+  </body>
 </html>
