@@ -5,7 +5,7 @@ html {
   touch-action: manipulation;
 }
 
-
+@import url(src/item.css);
 
 .container {
   padding: 15px;
