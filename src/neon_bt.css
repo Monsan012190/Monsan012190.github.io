@@ -81,3 +81,20 @@ main {
   &.kr { --color: #B7E7F7; filter: saturate(200%); }
   &.xe { --color: #C4C4C6; filter: brightness(105%); }
 }
+
+
+
+
+<style type="text/css">
+.button {
+  display      : inline-block;
+  border-radius: 50%;                  /* 角丸 */
+  box-shadow   : 6px 6px 3px #666666;  /* 影の設定 */
+  cursor       : pointer;              /* カーソル形状 */
+  transition   : .3s;                  /* なめらか変化 */
+}
+.button:hover {
+  box-shadow   : none;                 /* 影の設定 */
+  border-radius: 0;                    /* 角丸 */
+}
+</style>
