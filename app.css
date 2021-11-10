@@ -14,8 +14,8 @@ user-select:none;
 -khtml-user-select:none;
 -webkit-user-drag:none;
 -khtml-user-drag:none;
-  position: fixed;
-  left: calc((100% - 500px) / 2);/*(全体幅-要素幅)/2が余白*/
+  /*position: fixed;*/
+  /*left: calc((100% - 500px) / 2);*/ /*(全体幅-要素幅)/2が余白*/
 }
 
 
