@@ -4,7 +4,7 @@ html {
   font-family: sans-serif;
   touch-action: manipulation;
   position: fixed;
-  top: 10px; 
+ 
 }
 body{
 user-select:none;
