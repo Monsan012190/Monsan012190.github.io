@@ -72,3 +72,11 @@ overflow: hidden;
   font-size: 20px;
   font-weight: bold;
 }
+
+
+.up_btn{
+    border: 0px;
+    width:204px;
+    height:55px;
+    background: url(../img/Arrow//arrow-up.png) left top no-repeat;
+}
