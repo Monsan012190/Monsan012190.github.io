@@ -16,6 +16,22 @@ user-select:none;
 -khtml-user-drag:none;
 }
 
+#header {
+    width: 100%;
+    min-width: 960px;
+   height: 100px;
+  position: fixed;
+    left:0;
+ top:0;
+  z-index: 10;
+}
+#content{
+  padding-top: 100px;
+}
+#link01 {
+   margin-top:-100px;
+  padding-top:100px;
+}
 
 
 
