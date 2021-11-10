@@ -1,3 +1,5 @@
+document.addEventListener('touchmove', function(e) {e.preventDefault();}, {passive: false});
+
 // 変数定義
 let isPlaying = false
 let tapCount, time = 0
