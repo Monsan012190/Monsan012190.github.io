@@ -23,8 +23,3 @@ overflow: hidden;
 
 
 @import url(src/item.css);
-.gradient { 
-	background:linear-gradient(#56C500, #fff); 
-	height: 500px;
-	border: 1px solid #333;
-}
