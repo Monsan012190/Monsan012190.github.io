@@ -31,6 +31,20 @@ if ('serviceWorker' in navigator) {
         console.log('Service worker registered.', reg);
       });
 }
+ 
+window.addEventListener('load', (event) => {
+
+// ブラウザのウインドウサイズを取得する
+		var window_w = window.innerWidth;
+		var window_h = window.innerHeight;
+
+		console.log(window_w);
+		console.log(window_h);
+  <div class="time">width<span id="window_w"></span> 秒</div>
+    <div class="time">Height <span id="window_h"></span> 秒</div>
+});
+  
+  
 </script>
   
 
