@@ -24,11 +24,10 @@ overflow: hidden;
 @import url(src/item.css);
 
 .example {
-  margin-top: 20px;
- 
-  margin: 10px auto;
-  width:200px;
-  height:300px
-  background: orange;
   display: inline-block;
+  margin: 10px auto;
+  width:100px;
+  height:100px
+  background: orange;
+
 }
