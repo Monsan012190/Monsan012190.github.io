@@ -24,7 +24,6 @@ overflow: hidden;
 @import url(src/item.css);
 
 .example {
-  display: inline-block;
   margin: 10px auto;
   width:100px;
   height:100px
