@@ -26,40 +26,37 @@ overflow: hidden;
 
 
 
-.box-wrp {
+.box {
 
   height: 300px;
   border: 3px solid #021e6b;
   position: relative;
 }
 
-.box {
-  display: inline-block;
-  background-color: #87a5f8;
-  padding: 30px;
-  margin: 10px;
-}
-
 .up {
   position: absolute;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .down{
   position: absolute;
   bottom: 0;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .left {
   position: absolute;
   top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .right {
   position: absolute;
   top: 50%;
   right: 0;
+  transform: translate(-50%, -50%);
 }
 
 
