@@ -46,28 +46,26 @@ overflow: hidden;
   margin: 10px;
 }
 
-.box1 {
+.up {
   position: absolute;
+  left: 50%;
 }
 
-.box2 {
-  position: absolute;
-  right: 0;
-}
-
-.box3 {
+.down{
   position: absolute;
   bottom: 0;
-}
-
-.box4 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-
-.box5 {
-  position: absolute;
-  top: 38%;
   left: 32%;
 }
+
+.left {
+  position: absolute;
+  top: 38%;
+}
+
+.right {
+  position: absolute;
+  top: 38%;
+  right: 0;
+}
+
+
