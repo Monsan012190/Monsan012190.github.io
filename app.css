@@ -29,7 +29,7 @@ overflow: hidden;
 .box {
 
   height: 500px;
-  border: 10px solid #021e6b;
+  border: 1px solid #021e6b;
   position: relative;
   padding: 50;
   bottom: 0;
