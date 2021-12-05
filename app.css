@@ -32,7 +32,9 @@ overflow: hidden;
   border: 3px solid #021e6b;
   position: relative;
   padding: 50;
-  top: 70;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .up {
