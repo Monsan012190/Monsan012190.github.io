@@ -41,6 +41,8 @@ overflow: hidden;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
+
+  justify-content: center;
   margin: 0 auto;
   padding: 20;
   bottom: 10%;
