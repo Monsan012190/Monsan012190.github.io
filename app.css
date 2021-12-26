@@ -36,9 +36,11 @@ overflow: hidden;
   position: absolute;
   height: 30%;
   width: 90%;
-  border: 1px solid #021e6b;
-  padding: 50;
+  border: solid 3px black;
+  background:orange;
+  padding: 20;
   bottom: 10%;
+    
 }
 
 .up {
