@@ -38,7 +38,9 @@ overflow: hidden;
   width: 90%;
   border: solid 3px black;
   background:orange;
-
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
   margin: 0 auto;
   padding: 20;
   bottom: 10%;
