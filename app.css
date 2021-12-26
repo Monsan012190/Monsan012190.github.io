@@ -38,13 +38,16 @@ overflow: hidden;
   width: 100%;
   border: solid 3px black;
   background:orange;
+  left: 50%;
+  top: 70%;
+  padding: 20;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  left:50%;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 20;
-  bottom: 10%;
+
+  <!--justify-content: center;-->
+  <!--margin: 0 auto;-->
+
+
     
 }
 
