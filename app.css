@@ -35,14 +35,14 @@ overflow: hidden;
 }
 
 .up {
-  position: relative;
+  position: absolute;
   left: 50%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .down{
-  position: relative;
+  position: absolute;
   bottom: 0;
   left: 50%;
    -webkit-transform: translate(-50%, -50%);
@@ -50,14 +50,14 @@ overflow: hidden;
 }
 
 .left {
-  position: relative;
+  position: absolute;
   top: 50%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .right {
-  position: relative;
+  position: absolute;
   top: 50%;
   right: 0;
    -webkit-transform: translate(-50%, -50%);
