@@ -83,4 +83,4 @@ overflow: hidden;
   transform: translate(-50%, -50%);
 }
 
-
+.resizeimage img { width: 55%; }
