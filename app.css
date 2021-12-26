@@ -77,8 +77,8 @@ overflow: hidden;
 
 .right {
   position: absolute;
-  top: 20%;
-  right: 10%;
+  top: 22%;
+  right: 8%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
