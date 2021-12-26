@@ -38,8 +38,10 @@ overflow: hidden;
   width: 90%;
   border: solid 3px black;
   background:orange;
-      align-items: center;
-    justify-content: center;
+      transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+
   margin: 0 auto;
   padding: 20;
   bottom: 10%;
@@ -49,6 +51,8 @@ overflow: hidden;
 .up {
   position: absolute;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .down{
