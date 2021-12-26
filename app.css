@@ -31,18 +31,18 @@ overflow: hidden;
   height: 300px;
   border: 1px solid #021e6b;
   padding: 50;
-  bottom: 30px;
+  bottom: 70%;
 }
 
 .up {
-  position: absolute;
+  position: relative;
   left: 50%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .down{
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 50%;
    -webkit-transform: translate(-50%, -50%);
@@ -50,14 +50,14 @@ overflow: hidden;
 }
 
 .left {
-  position: absolute;
+  position: relative;
   top: 50%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .right {
-  position: absolute;
+  position: relative;
   top: 50%;
   right: 0;
    -webkit-transform: translate(-50%, -50%);
