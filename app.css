@@ -38,6 +38,8 @@ overflow: hidden;
   width: 90%;
   border: solid 3px black;
   background:orange;
+      align-items: center;
+    justify-content: center;
   margin: 0 auto;
   padding: 20;
   bottom: 10%;
