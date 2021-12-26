@@ -34,8 +34,8 @@ overflow: hidden;
 
 .box {
   position: absolute;
-  height: 300px;
-  width: 400px;
+  height: 30%;
+  width: 90%;
   border: 1px solid #021e6b;
   padding: 50;
   bottom: 10%;
