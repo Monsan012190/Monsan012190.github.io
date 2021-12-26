@@ -35,6 +35,7 @@ overflow: hidden;
 .box {
   position: absolute;
   height: 300px;
+  width: 400px;
   border: 1px solid #021e6b;
   padding: 50;
   bottom: 10%;
