@@ -27,7 +27,7 @@ overflow: hidden;
 
 
 .box {
-
+  position: absolute;
   height: 300px;
   border: 1px solid #021e6b;
   position: relative;
