@@ -42,21 +42,21 @@ overflow: hidden;
   left: 50%;
   bottom: 0;
   padding: 5;
-  -webkit-transform: translate(-30%, -50%);
-  transform: translate(-30%, -50%);  
+  -webkit-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);  
 }
 
 .up {
   position: absolute;
   left: 50%;
   top: 10%;
-   -webkit-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .down{
   position: absolute;
-  bottom: 3%;
+  bottom: 0;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
