@@ -72,7 +72,7 @@ overflow: hidden;
 
 .right1 {
   position: absolute;
-  top: 18%;
+  top: 19%;
   right: 2%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -80,7 +80,7 @@ overflow: hidden;
 
 .left2 {
   position: absolute;
-  top: 18%;
+  top: 19%;
   left: 23%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
