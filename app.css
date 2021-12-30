@@ -69,16 +69,16 @@ overflow: hidden;
 
 .left {
   position: absolute;
-  bottom: 0%;
-  left: 25%;
+  bottom: 10%;
+  left: 21%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .right {
   position: absolute;
-  top: 22%;
-  right: 0%;
+  top: 24%;
+  right: 3%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
