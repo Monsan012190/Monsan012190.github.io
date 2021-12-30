@@ -70,7 +70,7 @@ overflow: hidden;
 .left {
   position: absolute;
   bottom: 0%;
-  left: 20%;
+  left: 25%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
@@ -78,7 +78,7 @@ overflow: hidden;
 .right {
   position: absolute;
   top: 22%;
-  right: 8%;
+  right: 0%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
