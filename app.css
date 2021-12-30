@@ -35,6 +35,16 @@ overflow: hidden;
 
 
 
+.boxBG {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: solid 3px black;
+  background:black;
+  padding: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);  
+}
 
 .box {
   position: relative;
@@ -46,13 +56,7 @@ overflow: hidden;
   bottom: 20%;
   padding: 20;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-
-  <!--justify-content: center;-->
-  <!--margin: 0 auto;-->
-
-
-    
+  transform: translate(-50%, -50%);  
 }
 
 .up {
