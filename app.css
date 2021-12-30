@@ -40,7 +40,7 @@ overflow: hidden;
   border: solid 3px black;
   background:orange;
   left: 50%;
-  bottom: 15%;
+  bottom: 10%;
   padding: 5;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);  
@@ -64,7 +64,7 @@ overflow: hidden;
 
 .left1 {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: 23%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -72,7 +72,7 @@ overflow: hidden;
 
 .right1 {
   position: absolute;
-  top: 33%;
+  top: 22%;
   right: 2%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -80,7 +80,7 @@ overflow: hidden;
 
 .left2 {
   position: absolute;
-  top: 33%;
+  top: 22%;
   left: 23%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -88,7 +88,7 @@ overflow: hidden;
 
 .right2 {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   right: 2%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
