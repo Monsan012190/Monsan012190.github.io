@@ -64,8 +64,8 @@ overflow: hidden;
 
 .left1 {
   position: absolute;
-  bottom: 15%;
-  left: 23%;
+  bottom: 14%;
+  left: 22%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
@@ -88,8 +88,8 @@ overflow: hidden;
 
 .right2 {
   position: absolute;
-  bottom: 15%;
-  right: 2%;
+  bottom: 14%;
+  right: 1%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
