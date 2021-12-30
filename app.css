@@ -42,8 +42,8 @@ overflow: hidden;
   left: 50%;
   bottom: 0;
   padding: 5;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);  
+  -webkit-transform: translate(-30%, -50%);
+  transform: translate(-30%, -50%);  
 }
 
 .up {
@@ -64,7 +64,7 @@ overflow: hidden;
 
 .left {
   position: absolute;
-  bottom: 8%;
+  bottom: 3%;
   left: 23%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -72,8 +72,8 @@ overflow: hidden;
 
 .right {
   position: absolute;
-  top: 24%;
-  right: 3%;
+  top: 22%;
+  right: 2%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
