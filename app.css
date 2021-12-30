@@ -55,14 +55,12 @@ overflow: hidden;
   position: relative;
   left: 0%;
   top: 0%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
 }
 
 .down{
   position: relative;
   bottom: 0%;
-  left: 50%;
+  left: 0%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
