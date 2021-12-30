@@ -27,6 +27,10 @@ overflow: hidden;
             box-sizing: border-box;
 }
 
+.black {
+	background-color: black;
+}
+
 @import url(src/item.css);
 
 
