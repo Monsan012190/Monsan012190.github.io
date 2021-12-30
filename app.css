@@ -62,7 +62,7 @@ overflow: hidden;
   transform: translate(-50%, -50%);
 }
 
-.left {
+.left1 {
   position: absolute;
   bottom: 3%;
   left: 23%;
@@ -70,9 +70,25 @@ overflow: hidden;
   transform: translate(-50%, -50%);
 }
 
-.right {
+.right1 {
   position: absolute;
   top: 22%;
+  right: 2%;
+   -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.left2 {
+  position: absolute;
+  top: 22%;
+  left: 23%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.right2 {
+  position: absolute;
+  top: 45%;
   right: 2%;
    -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
