@@ -48,13 +48,13 @@ overflow: hidden;
 
 .up {
   position: absolute;
-  left: 0%;
-  top: 0%;
+  left: 50%;
+  top: 10%;
 }
 
 .down{
   position: absolute;
-  bottom: 50%;
+  bottom: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -77,4 +77,4 @@ overflow: hidden;
 }
 
 .resizeimage1 img { width: 55%; }
-.resizeimage2 img { width: 20%; }
+.resizeimage2 img { width: 21%; }
