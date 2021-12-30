@@ -49,7 +49,7 @@ overflow: hidden;
 .up {
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 16%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
@@ -64,15 +64,15 @@ overflow: hidden;
 
 .left1 {
   position: absolute;
-  bottom: 14%;
-  left: 22%;
+  bottom: 15%;
+  left: 23%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
 
 .right1 {
   position: absolute;
-  top: 14%;
+  top: 19%;
   right: 2%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -80,7 +80,7 @@ overflow: hidden;
 
 .left2 {
   position: absolute;
-  top: 14%;
+  top: 19%;
   left: 23%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
@@ -88,8 +88,8 @@ overflow: hidden;
 
 .right2 {
   position: absolute;
-  bottom: 14%;
-  right: 1%;
+  bottom: 15%;
+  right: 2%;
    -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
