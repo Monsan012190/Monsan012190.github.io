@@ -31,6 +31,17 @@ overflow: hidden;
 @import url(src/item.css);
 
 
+.m1 {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
+}
+
+
+
+
 
 
 .box {
@@ -38,7 +49,7 @@ overflow: hidden;
   height: 40%;
   width: 90%;
   border: solid 3px black;
-  background:black;
+  background:orange;
   left: 50%;
   bottom: 8%;
   padding: 5;
