@@ -52,7 +52,7 @@ overflow: hidden;
 }
 
 .up {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 10%;
   -webkit-transform: translate(-50%, -50%);
