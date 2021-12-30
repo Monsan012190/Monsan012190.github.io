@@ -39,6 +39,8 @@ overflow: hidden;
   position: absolute;
   height: 100%;
   width: 100%;
+  left: 50%;
+  bottom: 50%;
   margin: 0 auto;
   border: solid 3px black;
   background:black;
