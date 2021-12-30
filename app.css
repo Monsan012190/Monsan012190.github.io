@@ -41,9 +41,7 @@ overflow: hidden;
   width: 100vw;
   border: solid 3px black;
   background:black;
-  padding: 0;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);  
+  padding: 0; 
 }
 
 .box {
