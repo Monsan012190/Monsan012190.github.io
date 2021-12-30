@@ -30,17 +30,24 @@ overflow: hidden;
 
 @import url(src/item.css);
 
-
-.m1 {
+.memory {
   position: absolute;
-  left: 50%;
   top: 30%;
   -webkit-transform: translate(-50%, -0%);
   transform: translate(-50%, -0%);
 }
-
-
-
+.m1 {
+  top: 20%;
+}
+.m2 {
+  top: 40%;
+}
+.m3 {
+  top: 60%;
+}
+.m4 {
+  top: 80%;
+}
 
 
 
