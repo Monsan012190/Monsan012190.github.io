@@ -47,7 +47,7 @@ overflow: hidden;
 .box {
   position: relative;
   height: 40%;
-  width: 100%;
+  width: 90%;
   border: solid 3px black;
   background:orange;
   left: 50%;
