@@ -37,8 +37,6 @@ overflow: hidden;
 
 .boxBG {
   position: absolute;
-  height: 100vh;
-  width: 100vw;
   border: solid 3px black;
   background:black;
   padding: 0; 
