@@ -42,8 +42,8 @@ overflow: hidden;
   left: 50%;
   bottom: 0;
   padding: 5;
-  -webkit-transform: translate(-50%, -30%);
-  transform: translate(-50%, -30%);  
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);  
 }
 
 .up {
@@ -58,40 +58,40 @@ overflow: hidden;
   position: absolute;
   bottom: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 
 .left1 {
   position: absolute;
   bottom: 0%;
   left: 23%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 
 .right1 {
   position: absolute;
   top: 33%;
   right: 2%;
-   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 
 .left2 {
   position: absolute;
   top: 33%;
   left: 23%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 
 .right2 {
   position: absolute;
   bottom: 0%;
   right: 2%;
-   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 
 .resizeimage1 img { width: 55%; }
