@@ -41,7 +41,7 @@ overflow: hidden;
   background:orange;
   left: 50%;
   bottom: 0;
-  padding: 20;
+  padding: 5;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);  
 }
