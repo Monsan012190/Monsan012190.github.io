@@ -50,11 +50,13 @@ overflow: hidden;
   position: absolute;
   left: 50%;
   top: 10%;
+   -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .down{
   position: absolute;
-  bottom: 10%;
+  bottom: 3%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -62,8 +64,8 @@ overflow: hidden;
 
 .left {
   position: absolute;
-  bottom: 10%;
-  left: 21%;
+  bottom: 8%;
+  left: 23%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
