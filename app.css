@@ -33,7 +33,7 @@ overflow: hidden;
 
 
 .box {
-  position: absolute;
+  position: relative;
   height: 40%;
   width: 100%;
   border: solid 3px black;
