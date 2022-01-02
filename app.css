@@ -171,8 +171,6 @@ overflow: hidden;
   position: absolute;        	/* 外側の線の位置を自由に動かせるようにする */
   top: 3px;            		/* 外側の線の位置を、内側の線から上に3pxずらす */
   left: 3px;            		/* 外側の線の位置を、内側の線から左に3pxずらす*/
-  -webkit-transform: translate(-50%, -0%);
-  transform: translate(-50%, -0%);
 	
 }
 
