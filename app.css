@@ -166,11 +166,10 @@ overflow: hidden;
   content: '';            	/* 擬似要素に実体を持たせる */
   width: calc(100% + 4px);    /* 外側の線になる要素の幅を指定する*/
   height: calc(100% + 4px);   /* 外側の線になる要素の高さを指定する */
-  border: 1px solid #000;    	/* 外側の線になる一本線の枠線をひく*/
+  border: 1px solid #00aaff;    	/* 外側の線になる一本線の枠線をひく*/
 　border-radius: 5% 5%;
   position: absolute;        	/* 外側の線の位置を自由に動かせるようにする */
-  top: 3px;            		/* 外側の線の位置を、内側の線から上に3pxずらす */
-  left: 3px;            		/* 外側の線の位置を、内側の線から左に3pxずらす*/
+
 	
 }
 
