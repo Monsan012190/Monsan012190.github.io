@@ -138,5 +138,38 @@ overflow: hidden;
   transform: translate(-50%, -0%);
 }
 
+.upB {
+  background: #00aaff;
+  border: 1px #0000ff dashed;
+  border-radius: 5% 5% 3.5em 3.5em;
+  box-shadow: 0 0 0 4px #00aaff;
+  color: #0000aa;
+  display: inline-block;
+  height: 3.5em;
+  line-height: 3;
+  margin: 4px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  width: 7em;
+}
+.upB::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-top: #fff 2px solid;
+  border-right: #fff 2px solid;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
 .resizeimage1 img { width: 55%; }
 .resizeimage2 img { width: 21%; }
