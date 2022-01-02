@@ -139,7 +139,7 @@ overflow: hidden;
 }
 
 .btn {
-    position: absolute;
+  position: absolute;
   left: 50%;
   top: 13%;
   background: #00aaff;
@@ -155,6 +155,8 @@ overflow: hidden;
   text-align: center;
   text-decoration: none;
   width: 7em;
+  -webkit-transform: translate(-50%, -0%);
+  transform: translate(-50%, -0%);
 }
 .btn span{
   color: #FFF;
