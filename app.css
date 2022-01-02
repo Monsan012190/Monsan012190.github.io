@@ -144,12 +144,8 @@ overflow: hidden;
   top: 13%;
   background: #00aaff;
   border: solid 1px #f5f5f5;
-  border-radius: 5% 5% 3.5em 3.5em;
+  border-radius: 8% 8% 3.5em 3.5em;
 	
-  outline: solid 2px #f5f5f5;    /* 外側の線になる一本線の枠線をひく*/
-  outline-radius: 5% 5% 3.5em 3.5em;
-  outline-offset: 2px;        /* 外側の線と内側の線の空き具合を調整*/
-  margin: 2px;            	/* 外側の線を広げた分、要素の大きさを調整する*/
 	
   box-shadow: 0 0 0 4px #00aaff;
   color: #0000aa;
@@ -176,9 +172,12 @@ overflow: hidden;
   left: 0;
   width: 20px;
   height: 20px;
+  border: solid 1px #f5f5f5;
+  border-radius: 8% 8% 3.5em 3.5em;
+	
   border-top: 4px solid #f5f5f5;
   border-right: 4px solid #f5f5f5;
-  transform: rotate(90deg);
+  transform: rotate(135deg);
   margin-top: -5px;
 }
 
