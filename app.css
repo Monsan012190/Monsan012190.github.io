@@ -147,7 +147,8 @@ overflow: hidden;
   border-radius: 5% 5% 3.5em 3.5em;
 	
 	
-  box-shadow: 0 0 0 4px #00aaff;
+  <!--box-shadow: 0 0 0 4px #00aaff;-->
+　box-shadow: 0 0 0 5px #4682b4, 0 0 0 8px #fff, 0 0 0 11px #db7093;
   color: #696969;
   display: inline-block;
   height: 3.5em;
