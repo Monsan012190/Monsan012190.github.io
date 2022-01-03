@@ -162,13 +162,6 @@ overflow: hidden;
   transform: translate(-50%, -0%);
 }
 
-.btn::before{
-	
-  content: '';            	/* 擬似要素に実体を持たせる */
-  border-radius: 5% 5% 4.0em 4.0em;
-  border: 1px solid #ff0000;    	/* 外側の線になる一本線の枠線をひく*/
-  position: absolute;        	/* 外側の線の位置を自由に動かせるようにする */	
-}
 
 <!--中身-->
 .btn span{
