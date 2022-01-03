@@ -148,9 +148,7 @@ overflow: hidden;
 	
   box-shadow: 
     0 0 0 4px red inset,
-    0 0 0 8px yellow inset,
-    0 0 0 12px blue inset,
-    0 0 0 16px lime inset;	
+    0 0 0 8px yellow inset;
   <!--box-shadow: 0 0 0 4px #00aaff;-->
 
   color: #696969;
