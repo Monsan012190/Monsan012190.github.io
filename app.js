@@ -60,6 +60,7 @@ startBtn.addEventListener('click', () => {
 function goClick() {
   // クリック時の動作を指定できます
   //location.href = "http://www.cman.jp/";
+    location.href = "http://192.168.20.2";
     
     
 }
